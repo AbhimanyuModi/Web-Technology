@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            padding: 20px;
+            width: 50%;
+            margin: auto;
+            background-image: url(../Image/qIYBAFcoTMWAWYlBAAW6SB2IpQo234.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* background-image: linear-gradient(orange,white,green); */
+        }
+        input{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <!-- after clicking on the submit button where the data should go and save,we use action -->
+   <form action="">
+        <label for="">First_Name </label>
+        <input type="text" required>
+        <br><br>
+        <label for="">Last_Name </label>
+        <input type="text" required>
+        <br><br>
+        <label for="">E_Mail</label>
+        <input type="email" required>
+        <br><br>
+        <label for="Gender">Gender</label>
+        <input type="radio" style="float: none;" name="gender">Male
+        <input type="radio" style="float: none;" name="gender">Female
+        <input type="radio" style="float: none;" name="gender">Other
+        <br><br>
+        <label for="">Qualification</label>
+        <select name="" id="" style="float: right;">
+            <option value="">BE</option>
+            <option value="">B-Tech</option>
+            <option value="">ME</option>
+            <option value="">M-Tech</option>
+            <option value="">BCA</option>
+            <option value="">MCA</option>
+        </select>
+        <br><br>
+        <label for="">Year of Passing </label>
+        <input type="number" min="2015" max="2022">
+        <br><br>
+        <label for="">D_O_B</label>
+        <input type="date">
+        <br><br>
+        <label for="">Place</label>
+        <input type="text">
+        <br><br></br>
+        <label for="">Address</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br></br>
+        <label for="">Courses</label>
+        <input type="checkbox" style="float: none;">Java
+        <input type="checkbox" style="float: none;">SQL
+        <input type="checkbox" style="float: none;">Web Tech 
+        <input type="checkbox" style="float: none;">Python
+        <input type="checkbox" style="float: none;">C/C++
+        <br><br>
+       <center> <button>Submit</button></center>
+   </form> 
+</body>
+</html>
